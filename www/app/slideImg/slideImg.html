@@ -1,0 +1,17 @@
+<div class="showImg">
+
+##for(var i=0;i<imgs.length;i++){##
+  <img class="slideImg" src="{{imgs[i].imgsrc}}" alt="">
+##}##
+
+<div class="slidePointer">
+##for(var i=0;i<imgs.length;i++){##
+ ##if(i==imgs.length-1){##
+   <span class="active"></span>
+ ##}else{##
+   <span></span>
+ ##}##
+##}##
+
+</div>
+</div>
